@@ -47,7 +47,7 @@ a:hover,
 a:focus,
 /**/
 a:active {
-    color: white;
+    color: rgb(33, 248, 237);
 }
 
 /*Al poner el maus encima del link hacer que cambie el color*/
@@ -72,7 +72,7 @@ h6 .h1,
     font-weight: 500;
     font-style: normal;
     color: #fff;
-    /*Faltan 2 caracteristicas*/
+   
 }
 
 h1,
