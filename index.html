@@ -51,8 +51,10 @@
             <ul class="header-social">
                 <li><a href="#0"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
                 <li><a href="#1"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.youtube.com/@Jonnathx"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/_addrriel/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/@Jonnathx"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/_addrriel/"><i class="fab fa-instagram"
+                            aria-hidden="true"></i></a></li>
             </ul>
         </nav>
         <a href="#" class="header-menu-toggle"><span>Menu</span></a>
@@ -265,7 +267,8 @@
                     <!--Título del servicio ofrecido-->
                     <h4 class="item-title">Web development</h4>
                     <p>
-                        Introducir las tecnologías clave para la creación de páginas web: HTML, CSS y JavaScript. Enseñar a estructurar y diseñar sitios web,
+                        Introducir las tecnologías clave para la creación de páginas web: HTML, CSS y JavaScript.
+                        Enseñar a estructurar y diseñar sitios web,
                         comprendiendo cómo estas herramientas se integran en el desarrollo web.
                     </p>
 
@@ -338,9 +341,214 @@
                 </div>
             </div><!-- end services-list-->
         </div><!--en s-services-->
-
     </section>
 
+    <!--CTA
+    ==================================================-->
+    <section class="s-cta ss-dark">
+        <!--Define una sección con las clases `s-cta` (llamada a la acción) y `ss-dark` (estilo oscuro)-->
+        <div class="row heading-block heading-block--center">
+            <!-- Crea una fila que contiene un bloque de encabezado, centrado-->
+            <div class="column large-full"> <!--Define una columna que ocupa el 100% del ancho disponible-->
+                <h2 class="section-desc"> <!--Muestra un encabezado de segundo nivel con la clase `section-desc`-->
+                    Necesitas un Hosting? <!--Contenido del encabezado-->
+                </h2>
+            </div> <!--Cierra la columna que contiene el encabezado-->
+        </div><!--end heading-block--> <!--Cierra la fila de encabezado -->
+
+        <div class="row cta-content"> <!--Crea otra fila destinada a contenido adicional de la CTA-->
+            <div class="column large-full"> <!--Define una columna que ocupa el 100% del ancho de la fila-->
+            </div> <!--Cierra la columna, que está vacía-->
+        </div> <!--Cierra la fila de contenido de CTA-->
+    </section> <!--Cierra la sección completa que abarca tanto el encabezado como el contenido de la CTA-->
+    <!--work ===========================================================================================
+    -->
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+        <!--<section> define una sección del documento HTML. El atributo id="works" es un identificador único para esta sección, y las clases "s-works" y "target-section" se usan para estilos CSS y posiblemente para scroll de anclas.-->
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <!--<div> crea un contenedor de bloque con clases que se utilizan para alinear el contenido (heading-block centrado). El atributo "data-aos='fade-up'" activa una animación AOS (Animate On Scroll) que hace que el contenido se desplace hacia arriba al mostrarse.-->
+            <div class="column large-full">
+                <!--Un <div> de columna que ocupa todo el ancho disponible (clase "large-full"), probablemente dentro de un sistema de grid CSS. -->
+                <h2 class="section-heading section-heading--centerbottom">Selected Works</h2>
+                <!--Título de la sección "Selected Works", con estilos definidos por las clases "section-heading" y "section-heading--centerbottom" que alinean el texto en el centro.-->
+                <p class="section-desc">
+                    <!--<p> es un párrafo que actúa como descripción de la sección. La clase "section-desc" se utiliza para aplicar estilos específicos a este texto.-->
+                    Here are some of my selected works I have done lately. Feel free to check them out.
+                    <!--Contenido del párrafo que describe la sección de portafolio.-->
+                </p>
+            </div> <!--Cierre del contenedor de la columna que envuelve el título y la descripción.-->
+        </div> <!--Cierre del bloque de encabezado "heading-block".-->
+
+        <div class="masonry-wrap">
+            <!-- Este <div> envuelve toda la cuadrícula del portafolio y usa la clase "masonry-wrap" para aplicar los estilos y layout tipo masonry (diseño de cuadrícula ajustada). -->
+            <div class="masonry">
+                <!-- <div> principal para la cuadrícula tipo masonry. La clase "masonry" maneja la disposición de los elementos en bloques ajustados. -->
+                <div class="grid-sizer"></div>
+                <!-- Elemento auxiliar utilizado por el layout de cuadrícula para ayudar a determinar el tamaño de las columnas. Generalmente es un elemento invisible. -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <!-- Cada ítem individual del portafolio está contenido en un bloque "brick". El atributo "data-aos='fade-up'" añade animación de desplazamiento hacia arriba. -->
+                    <div class="item-folio">
+                        <!-- Este <div> envuelve todos los elementos del portafolio (imagen, texto, y descripción). La clase "item-folio" se utiliza para los estilos de presentación. -->
+                        <div class="item-folio__thumb">
+                            <!-- Contenedor para la miniatura de la imagen del portafolio, con clase "item-folio__thumb" para aplicar estilos de miniatura. -->
+                            <a href="imagene/portfolio/gallery/g-city-building.jpg" class="thumb-link"
+                                title="Shutterbug" data-size="1050x700">
+                                <!-- Enlace que lleva a una versión más grande de la imagen. La clase "thumb-link" estiliza el enlace de la miniatura. "data-size" especifica el tamaño de la imagen. -->
+                                <img src="imagene/portfolio/city-building.jpg"
+                                    srcset="img/portfolio/city-building.jpg 1x, img/portfolio/city-building@2x.jpg 2x"
+                                    alt="">
+                                <!-- <img> muestra la imagen de la miniatura. "srcset" provee diferentes resoluciones (1x y 2x) dependiendo de la pantalla del usuario, y "alt" es un texto alternativo en caso de que la imagen no se cargue. -->
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"
+                                target="_blank"></a>
+                            <!-- Enlace adicional que lleva al proyecto en una página externa (por ejemplo, Behance). El atributo "target='_blank'" asegura que se abra en una nueva pestaña. -->
+                        </div> <!-- Cierre del contenedor de la miniatura de la imagen. -->
+
+                        <div class="item-folio__text">
+                            <!-- <div> que envuelve el título y la categoría del proyecto. La clase "item-folio__text" se usa para estilizar esta parte. -->
+                            <h4 class="item-folio__title">City Building</h4>
+                            <!-- Título del proyecto, estilizado por la clase "item-folio__title". -->
+                            <p class="item-folio__cat">Branding</p>
+                            <!-- Categoría o tipo de proyecto (en este caso, "Branding"). La clase "item-folio__cat" estiliza este texto. -->
+                        </div> <!-- Cierre del contenedor del texto (título y categoría). -->
+
+                        <div class="item-folio__caption">
+                            <!-- <div> que contiene una descripción breve del proyecto. La clase "item-folio__caption" define su estilo. -->
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo. Unde
+                                dolorem corrupti neque nisi.</p>
+                            <!-- Párrafo de descripción del proyecto, con texto ficticio de ejemplo. -->
+                        </div> <!-- Cierre del contenedor de la descripción. -->
+                    </div> <!-- Cierre del contenedor completo del ítem del portafolio. -->
+                </div> <!-- Cierre del bloque individual "brick" del portafolio. -->
+            </div> <!-- end masonry__brick -->
+            <div class="masonry__brick" data-aos="fade-up"> <!--end masonry__brick-->
+                <div class="item-folio"> <!--Contenedor principal de cada ítem del portafolio-->
+                    <div class="item-folio__thumb"> <!--Contenedor de la miniatura de la imagen-->
+                        <a href="imagene/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft"
+                            data-size="1050x700"> <!--Enlace hacia la imagen completa-->
+                            <img src="imagene/portfolio/woodcraft.jpg"
+                                srcset="img/portfolio/woodcraft.jpg 1x, img/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            <!--Miniatura de la imagen con diferentes resoluciones según la pantalla-->
+                        </a>
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"
+                            target="_blank"></a>
+                        <!--Enlace adicional para abrir el proyecto en Behance en una nueva pestaña-->
+                    </div> <!--end item-folio__thumb-->
+
+                    <div class="item-folio__text"> <!--Contenedor del texto del proyecto-->
+                        <h4 class="item-folio__title">Woodcraft</h4> <!--Título del proyecto-->
+                        <p class="item-folio__cat">Web Design</p> <!--Categoría del proyecto-->
+                    </div> <!--end item-folio__text-->
+
+                    <div class="item-folio__caption"> <!--Descripción breve del proyecto-->
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem
+                            corrupti neque nisi.</p>
+                    </div> <!--end item-folio__caption-->
+                </div> <!--end item-folio-->
+            </div> <!--end masonry__brick-->
+
+            <div class="masonry__brick" data-aos="fade-up"> <!--end masonry__brick-->
+                <div class="item-folio"> <!--Contenedor principal del segundo ítem-->
+                    <div class="item-folio__thumb"> <!--Contenedor de la miniatura del segundo ítem-->
+                        <img src="imagene/portfolio/the-beetle.jpg"
+                            srcset="img/portfolio/the-beetle.jpg 1x, img/portfolio/the-beetle@2x.jpg 2x" alt="">
+                        <!--Miniatura del segundo proyecto-->
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"
+                            target="_blank"></a> <!--Enlace del segundo proyecto a Behance-->
+                    </div> <!--end item-folio__thumb-->
+
+                    <div class="item-folio__text"> <!--Contenedor de texto del segundo proyecto-->
+                        <h4 class="item-folio__title">The Beetle</h4> <!--Título del segundo proyecto-->
+                        <p class="item-folio__cat">Web Development</p> <!--Categoría del segundo proyecto-->
+                    </div> <!--end item-folio__text-->
+
+                    <div class="item-folio__caption"> <!--Descripción breve del segundo proyecto-->
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem
+                            corrupti neque nisi.</p>
+                    </div> <!--end item-folio__caption-->
+                </div> <!--end item-folio-->
+            </div> <!-- end masonry__brick -->
+            <div class="masonry__brick" data-aos="fade-up"> <!--end masonry__brick-->
+                <div class="item-folio"> <!--Contenedor principal del ítem Shutterbug-->
+                    <div class="item-folio__thumb"> <!--Contenedor de la miniatura de la imagen del ítem-->
+                        <a href="imagene/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Grow Green"
+                            data-size="1050x700"> <!--Enlace a la imagen completa de Shutterbug-->
+                            <img src="imagene/portfolio/shutterbug.jpg"
+                                srcset="img/portfolio/shutterbug.jpg 1x, img/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            <!--Miniatura de la imagen con opciones de resolución-->
+                        </a>
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"
+                            target="_blank"></a> <!--Enlace del proyecto a Behance-->
+                    </div> <!--end item-folio__thumb-->
+
+                    <div class="item-folio__text"> <!--Contenedor del texto descriptivo del proyecto-->
+                        <h4 class="item-folio__title">Shutterbug</h4> <!--Título del proyecto Shutterbug-->
+                        <p class="item-folio__cat">Branding</p> <!--Categoría del proyecto Shutterbug-->
+                    </div> <!--end item-folio__text-->
+
+                    <div class="item-folio__caption"> <!--Descripción breve del proyecto Shutterbug-->
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem
+                            corrupti neque nisi.</p>
+                    </div> <!--end item-folio__caption-->
+                </div> <!--end item-folio-->
+            </div> <!--end masonry__brick-->
+
+            <div class="masonry__brick" data-aos="fade-up"> <!--end masonry__brick-->
+                <div class="item-folio"> <!--Contenedor principal del ítem Lamp-->
+                    <div class="item-folio__thumb"> <!--Contenedor de la miniatura de la imagen del ítem-->
+                        <a href="imagene/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Guitarist"
+                            data-size="1050x700"> <!--Enlace a la imagen completa de Lamp-->
+                            <img src="imagene/portfolio/lamp.jpg"
+                                srcset="img/portfolio/lamp.jpg 1x, img/portfolio/lamp@2x.jpg 2x" alt="">
+                            <!--Miniatura de la imagen con opciones de resolución-->
+                        </a>
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"
+                            target="_blank"></a> <!--Enlace del proyecto a Behance-->
+                    </div> <!--end item-folio__thumb-->
+
+                    <div class="item-folio__text"> <!--Contenedor del texto descriptivo del proyecto-->
+                        <h4 class="item-folio__title">Lamp</h4> <!--Título del proyecto Lamp-->
+                        <p class="item-folio__cat">Web Design</p> <!--Categoría del proyecto Lamp-->
+                    </div> <!--end item-folio__text-->
+
+                    <div class="item-folio__caption"> <!--Descripción breve del proyecto Lamp-->
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem
+                            corrupti neque nisi.</p>
+                    </div> <!--end item-folio__caption-->
+                </div> <!--end item-folio-->
+            </div> <!--end masonry__brick-->
+
+            <div class="masonry__brick" data-aos="fade-up"> <!--end masonry__brick-->
+                <div class="item-folio"> <!--Contenedor principal del ítem Fuji-->
+                    <div class="item-folio__thumb"> <!--Contenedor de la miniatura de la imagen del ítem-->
+                        <a href="imagene/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Palmeira"
+                            data-size="1050x700"> <!--Enlace a la imagen completa de Fuji-->
+                            <img src="imagene/portfolio/fuji.jpg"
+                                srcset="ima/portfolio/fuji.jpg 1x, img/portfolio/fuji@2x.jpg 2x" alt="">
+                            <!--Miniatura de la imagen con opciones de resolución-->
+                        </a>
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link"
+                            target="_blank"></a> <!--Enlace del proyecto a Behance-->
+                    </div> <!--end item-folio__thumb-->
+
+                    <div class="item-folio__text"> <!--Contenedor del texto descriptivo del proyecto-->
+                        <h4 class="item-folio__title">Fuji</h4> <!--Título del proyecto Fuji-->
+                        <p class="item-folio__cat">Web Design</p> <!--Categoría del proyecto Fuji-->
+                    </div> <!--end item-folio__text-->
+
+                    <div class="item-folio__caption"> <!--Descripción breve del proyecto Fuji-->
+                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem
+                            corrupti neque nisi.</p>
+                    </div> <!--end item-folio__caption-->
+                </div> <!--end item-folio-->
+            </div> <!--end masonry__brick-->
+
+        </div> <!--end masonry-->
+        </div> <!--end masonry-wrap-->
+    </section> <!--end s-work-->
 
 
 </body>
